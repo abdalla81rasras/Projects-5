@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Popup Function</title>
+</head>
+<body>
+    <div class="big-box-spaces py-5">
+        <div class="container py-5">
+            <section class="spaces justify-content-around">
+                <div class="row">
+                    <div class="col-xs-12 box-space-photo">
+                        <div class="small-box-space-photo">
+                            <div class="mini-box-space-photo position-relative">
+                                <img src="asstes/img/116.jpg" alt="Holstein space" class="w-100 mt-3 mt-lg-0">
+                                <button type="button" class="pop-button button1" data-placement="bottom" data-trigger="click" data-toggle="popover" title="Did you know?" data-content="This purple planet is...Earth!"><span>&#43;</span></button>
+                                <button type="button" class="pop-button button2" data-placement="bottom" data-trigger="click" data-toggle="popover" title="Did you know?" data-content="Dan Spacley Pilots the ship to a successful website!"><span>&#43;</span></button>
+                                <button type="button" class="pop-button button3" data-placement="bottom" data-trigger="click" data-toggle="popover" title="Did you know?" data-content="Here you can see planet Markury, where your digital marketers roam."><span>&#43;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center a-c">
+                    <div class="col-xs-12">
+                        <div class="popup" onclick="popup()">Click To Show Popup
+                            <span class="popuptext" id="Popup">Popup text ...</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+      </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="js/popup.js"></script>
+</body>
+</html>
